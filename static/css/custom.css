@@ -140,3 +140,12 @@ body, input, select, button, p {
         flex-direction: column;
     }
 }
+
+/* used in practicals */
+.question {
+    font-style: italic;
+    background: #c6c6ec;
+    color: #1a1a1a;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+}
