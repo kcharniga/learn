@@ -29,11 +29,6 @@
 
     {{ if .Site.Params.RSSLink}}<link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{else}}{{ if eq .URL "/" }}<link href="{{ "index.xml" | absURL}}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" /> {{ end }} {{ end }}
 
-    <!-- <\!-- include local css customisation -\-> -->
-    <!-- <link rel="stylesheet" type="text/css" href="/css/custom.css"> -->
-
-    <!-- <\!-- include local highlightjs css customisation -\-> -->
-    <!-- <link rel="stylesheet" type="text/css" href="/css/recon-highlight.css"> -->
     
     <!-- include support for mathjax -->
     {{ partial "mathjax-support.html" . }}
@@ -41,4 +36,6 @@
     <!-- include support for mathjax -->
     {{ partial "highlightjs-support.html" . }}
 
+    <!-- Support for mathjax -->
+    {{ partial "mathjax-support.html" . }}
 </head>
