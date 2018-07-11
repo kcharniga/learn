@@ -1,4 +1,12 @@
-/* RECON Blue */
+code, .post-full-content code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #993366;
+    /* background-color: #f9ecf2; */
+    border-radius: 10px;
+}
+
+
 .site-header {
     background: #3d3d5c;
 }
