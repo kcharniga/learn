@@ -10,6 +10,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$","^README"]
 paginate        = 6
 uglyurls = true
 preserveTaxonomyNames = true
+
 [taxonomies]
   category = "categories"
   license = "licenses"
@@ -25,7 +26,7 @@ preserveTaxonomyNames = true
   description = "For more about the R Epidemics Consortium (RECON), visit our website: https://repidemicsconsortium.org"
   singleViewStyle = "casper"
   pageNotFoundTitle = "404 - Page not found"
-  customCSS = ["css/custom.css"]
+  customCSS = ["css/custom.css", "css/recon-highlight.css"]
   
   email         = "thibautjombart@gmail.com"
   twitterName    = "teebzr"
@@ -38,7 +39,6 @@ preserveTaxonomyNames = true
   authorAvatar = "img/user.png"
 
   showSupport = true
-
 
 [[menu.main]]
   name = "Home"
