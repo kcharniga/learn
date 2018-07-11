@@ -1,11 +1,35 @@
+pre, .post-full-content pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.post-full-content pre code {
+    color: inherit;
+    /* color: #e5eff5; */
+}
+
 code, .post-full-content code {
     padding: 2px 4px;
     font-size: 90%;
     color: #993366;
-    /* background-color: #f9ecf2; */
     border-radius: 10px;
 }
 
+
+
+
+/* .post-full-content pre code * { */
+/*     color: ;  */
+/* } */
 
 .site-header {
     background: #3d3d5c;
@@ -141,7 +165,9 @@ body, input, select, button, p {
     }
 }
 
+
 /* used in practicals */
+
 .question {
     font-style: italic;
     background: #c6c6ec;
@@ -149,3 +175,18 @@ body, input, select, button, p {
     border-radius: 5px;
     padding: 2px 5px 2px 5px;
 }
+
+/* links */
+
+/* a:link { */
+/*     color: #666699; */
+/* } */
+
+/* a:visited { */
+/*     color: #666699; */
+/* } */
+
+/* a:hover { */
+/*     /\* font-weight: bold; *\/ */
+/*     color: #862d59; */
+/* } */
